@@ -1,0 +1,6 @@
+usr/local/bin/qcoin-qt usr/bin
+share/pixmaps/qcoin32.xpm usr/share/pixmaps
+share/pixmaps/qcoin16.xpm usr/share/pixmaps
+share/pixmaps/qcoin128.png usr/share/pixmaps
+debian/qcoin-qt.desktop usr/share/applications
+debian/qcoin-qt.protocol usr/share/kde4/services/

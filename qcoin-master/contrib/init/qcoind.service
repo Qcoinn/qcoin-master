@@ -1,0 +1,22 @@
+[Unit]
+Description=Qcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=qcoincore
+Group=qcoincore
+
+Type=forking
+PIDFile=/var/lib/qcoind/qcoind.pid
+ExecStart=/usr/bin/qcoind -daemon -pid=/var/lib/qcoind/qcoind.pid \
+-conf=/etc/qcoincore/qcoin.conf -datadir=/var/lib/qcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

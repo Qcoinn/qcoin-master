@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/qcoin_bg.qm</file>
+        <file alias="de">locale/qcoin_de.qm</file>
+        <file alias="en">locale/qcoin_en.qm</file>
+        <file alias="es">locale/qcoin_es.qm</file>
+        <file alias="fi">locale/qcoin_fi.qm</file>
+        <file alias="fr">locale/qcoin_fr.qm</file>
+        <file alias="it">locale/qcoin_it.qm</file>
+        <file alias="ja">locale/qcoin_ja.qm</file>
+        <file alias="pl">locale/qcoin_pl.qm</file>
+        <file alias="pt">locale/qcoin_pt.qm</file>
+        <file alias="ru">locale/qcoin_ru.qm</file>
+        <file alias="sk">locale/qcoin_sk.qm</file>
+        <file alias="sv">locale/qcoin_sv.qm</file>
+        <file alias="vi">locale/qcoin_vi.qm</file>
+        <file alias="zh_CN">locale/qcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/qcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

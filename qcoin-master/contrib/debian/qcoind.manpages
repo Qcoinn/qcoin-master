@@ -1,0 +1,3 @@
+debian/manpages/qcoind.1
+debian/manpages/qcoin.conf.5
+debian/manpages/qcoin-cli.1
